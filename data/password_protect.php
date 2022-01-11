@@ -49,8 +49,8 @@ $LOGIN_INFORMATION = array(
 // Add login/password pairs below, like described above
 // NOTE: all rows except last must have comma "," at the end of line
 $LOGIN_INFORMATION = array(
-  'zubrag' => 'rfaustino007@gmail.com',
-  'rfaustino007@gmail.com' => 'Ro181010'
+  'zubrag' => 'admin@admin.com',
+  'rfaustino007@gmail.com' => 'admin123'
 );
 
 // request login? true - show login and password boxes, false - password box only
