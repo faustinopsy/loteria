@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'bariol_regularregular';
+    src: url('fonts/bariol_regular-webfont.woff2') format('woff2'),
+         url('fonts/bariol_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*-- Save Wrapper -- */
+#scoreHolder{ position:fixed; display:none; text-align:center; width:100%; font-family:'bariol_regularregular'; background:url(../assets/scoreboard/black.png) repeat; color:#fff;}
+#scoreHolder .scoreInnerContent{ background:#001040; position:absolute; padding:8% 0 0;}
+#scoreHolder .extraGap{ padding:15% 0 0;}
+#scoreHolder input{ font-family:"bariol_regularregular"; text-align:center; width:50%; color:#666;}
+#scoreHolder .label{ margin-top:2%;}
+#scoreHolder #uName, #scoreHolder #uEmail{ margin-top:1%;}
+#scoreHolder .action{ width:30%; margin:1% auto;}
+#scoreHolder #buttonSubmit{ float:left; text-align:center; width:50%; cursor:pointer;}
+#scoreHolder #buttonCancel{ float:right; text-align:center; width:50%; cursor:pointer;}
+
+#scoreHolder .static{ padding:15% 0 0;}
+#scoreHolder .portrait{ padding:30% 0 0;}
+#scoreHolder .portrait .action{ width:50%;}
